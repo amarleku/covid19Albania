@@ -185,3 +185,10 @@ body{
     align-items: center!important;
     padding-bottom: 3rem !important;
 }
+.recovered{
+    background-color: #27ae60;
+    color: white;
+}
+#recovered{
+    color: white;
+}
