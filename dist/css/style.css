@@ -187,5 +187,9 @@ body{
 }
 
 .recovered{
-    background-color: #28a74547;
+    background-color: #27ae60;
+    color: white;
+}
+#recovered{
+    color: white;
 }
