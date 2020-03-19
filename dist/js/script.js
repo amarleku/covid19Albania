@@ -5,5 +5,6 @@ request.onload = function() {
   document.getElementById("cases").innerHTML = data.cases;
   document.getElementById("recovered").innerHTML = data.recovered;
   document.getElementById("deaths").innerHTML = data.deaths;
+  document.getElementById("todayCases").innerHTML = data.todayCases;
 }
 request.send()
