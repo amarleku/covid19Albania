@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
+<channel>
+  <title>ROR Sitemap for https://covid19al.now.sh/</title>
+  <link>https://covid19al.now.sh/</link>
+
+<item>
+     <link>https://covid19al.now.sh/</link>
+     <title>COVID19 Albania</title>
+     <description>Welcome to COVID19 Albania.
+Here u can see the real results of Corona Virus in Albania</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>0</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://covid19al.now.sh/al/index.html</link>
+     <title>COVID19 Albania</title>
+     <description>Welcome to COVID19 Albania.
+Here u can see the real results of Corona Virus in Albania</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://covid19al.now.sh/simtomat.html</link>
+     <title>Covid19 Albania - Simptomat</title>
+     <description>Covid19 Albania - Simptomat</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://covid19al.now.sh/masat.html</link>
+     <title>Covid19 Albania - Simptomat</title>
+     <description>Covid19 Albania - Simptomat</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://covid19al.now.sh/index.html</link>
+     <title>COVID19 Albania</title>
+     <description>Welcome to COVID19 Albania.
+Here u can see the real results of Corona Virus in Albania</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://covid19al.now.sh/al/simtomat.html</link>
+     <title>Covid19 Albania - Simptomat</title>
+     <description>Covid19 Albania - Simptomat</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://covid19al.now.sh/al/masat.html</link>
+     <title>Covid19 Albania - Simptomat</title>
+     <description>Covid19 Albania - Simptomat</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+</channel>
+</rss>
+  
