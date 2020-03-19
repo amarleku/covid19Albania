@@ -185,3 +185,7 @@ body{
     align-items: center!important;
     padding-bottom: 3rem !important;
 }
+
+.recovered{
+    background-color: #28a74547;
+}
