@@ -193,3 +193,15 @@ body{
 #recovered{
     color: white;
 }
+.death{
+    width: 24%;
+    position: absolute;
+    right: 20px;
+    opacity: 0.5;
+}
+.death2{
+    width: 8%;
+    position: absolute;
+    right: 20px;
+    opacity: 0.5;
+}
