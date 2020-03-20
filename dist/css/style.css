@@ -229,6 +229,9 @@ p {
 #recovered {
     color: white;
 }
+#allRecovered{
+    color: white;
+}
 
 .death {
     width: 24%;
