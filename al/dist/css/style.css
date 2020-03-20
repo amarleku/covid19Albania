@@ -3,44 +3,54 @@ a {
     text-decoration: none !important;
     background-color: transparent !important;
 }
+
 /* Font */
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
 /* nav */
-.menu-item{
+.menu-item {
     display: flex;
     justify-content: flex-end;
     padding: 0 10px;
-    font-family: Montserrat,sans-serif;
+    font-family: Montserrat, sans-serif;
     font-weight: 600;
-   
+
 }
-.menu-item:hover{
+
+.menu-item:hover {
     color: #111217;
     text-decoration: none;
     cursor: pointer;
     transition: .2s;
 }
-.menu-item-a{
+
+.menu-item-a {
     color: #111217;
     text-decoration: none;
     cursor: pointer;
     transition: .2s;
 }
-.home-nav{
+
+.home-nav {
     padding-bottom: 5rem;
 }
-.nav-icon  {
+
+.nav-icon {
     width: 40px;
 }
+
 /* Logo */
-html, body{
-    font-family: Montserrat,sans-serif;
+html,
+body {
+    font-family: Montserrat, sans-serif;
 }
-body{
+
+body {
     background-color: #f3f7fd !important;
-    font-family: Montserrat,sans-serif;
+    font-family: Montserrat, sans-serif;
 }
-.albania-logo{
+
+.albania-logo {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -48,8 +58,9 @@ body{
     margin-bottom: 2rem;
     margin-top: 2rem;
 }
+
 /* Welcome text */
-.main-welcome-text{
+.main-welcome-text {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -57,32 +68,39 @@ body{
     height: auto;
     border-radius: 10px;
     background-color: #ce212a;
-  
+
 }
-.main-text{
+
+.main-text {
     padding: 3rem;
     padding-left: 3rem !important;
-    font-family: Montserrat,sans-serif;
+    font-family: Montserrat, sans-serif;
 }
-.icon{
+
+.icon {
     padding-top: 3rem;
 }
-.title, .subtitle{
+
+.title,
+.subtitle {
     color: whitesmoke;
-    font-family: Montserrat,sans-serif;
+    font-family: Montserrat, sans-serif;
 }
+
 /* Numbers */
-.last-numbers{
+.last-numbers {
     justify-content: center;
     display: flex;
-    font-family: Montserrat,sans-serif;
+    font-family: Montserrat, sans-serif;
     font-weight: 600;
     margin-bottom: 3rem;
     margin-top: 4rem;
 }
+
 .mb-30 {
     margin-bottom: 30px;
 }
+
 .statistics-box {
     display: flex;
     justify-content: center;
@@ -92,16 +110,19 @@ body{
     width: 100%;
     background-color: #fff;
     border-radius: 10px;
-    font-family: Montserrat,sans-serif;
+    font-family: Montserrat, sans-serif;
 }
+
 .statistics-box h3 {
     font-size: 54px;
     font-weight: 700;
     color: #2c2f38;
 }
+
 .box-shadow {
-    box-shadow: 0 1px 16px 0 rgba(0,0,0,.1);
+    box-shadow: 0 1px 16px 0 rgba(0, 0, 0, .1);
 }
+
 /* info */
 .second-bg {
     background-color: #fff;
@@ -109,6 +130,7 @@ body{
     height: 310px;
     padding: 20px 40px 60px;
 }
+
 .more-info-section {
     background-color: #fff;
     border-radius: 10px;
@@ -116,43 +138,51 @@ body{
     width: 100%;
     height: 331px;
 }
+
 .second-bg {
     background-color: #fff;
     width: 100%;
     height: 310px;
     padding: 20px 40px 60px;
 }
+
 .more-info-section a h4 {
     color: #111217;
     font-size: 25px;
     font-weight: 700;
     line-height: 35px;
 }
+
 .evaluate-yourself {
     background-color: #fff;
     border-radius: 10px;
     padding: 10px 0;
     width: 100%;
     height: 330px;
-    background: linear-gradient(30deg,#0acddb,#28e268);
+    background: linear-gradient(30deg, #0acddb, #28e268);
 }
+
 .evaluate-yourself a svg {
     width: 90px;
     height: 90px;
     margin-bottom: 20px;
 }
+
 .evaluate-yourself a p {
     color: #111217;
 }
+
 .evaluate-yourself a h4 {
     color: #111217;
     font-size: 25px;
     font-weight: 700;
     line-height: 35px;
 }
+
 .more-info-section a p {
     color: #111217;
 }
+
 /* tel */
 .footer-logo {
     width: 2%;
@@ -160,39 +190,52 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
-.footer-inner h2, p{
+
+.footer-inner h2,
+p {
     display: flex;
     justify-content: center;
 }
 
 /* Symptoms */
-.title-symptoms{
+.title-symptoms {
     display: flex;
     justify-content: center;
 }
+
 /* masat */
-.title-masat{
+.title-masat {
     display: flex;
     justify-content: center;
 }
-#more-info{
-    
-        padding: 3em 0;
-    
+
+#more-info {
+
+    padding: 3em 0;
+
 }
+
 .align-items-center {
-    -ms-flex-align: center!important;
-    align-items: center!important;
+    -ms-flex-align: center !important;
+    align-items: center !important;
     padding-bottom: 3rem !important;
 }
-.recovered{
+
+.recovered {
     background-color: #27ae60;
     color: white;
 }
-#recovered{
+
+#recovered {
     color: white;
 }
-.icon{
+
+.icon {
     display: flex;
-justify-content: center;
+    justify-content: center;
+}
+.main-text{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
