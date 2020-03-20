@@ -229,6 +229,16 @@ p {
 #recovered {
     color: white;
 }
+.victims{
+    background-color: #ce212a;
+    color: white;
+}
+#deaths{
+    color: white;
+}
+#allDeaths{
+    color: white;
+}
 #allRecovered{
     color: white;
 }
