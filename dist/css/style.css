@@ -254,3 +254,18 @@ p {
     margin-left: auto;
     margin-right: auto;
 }
+.nurse{
+    width: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.h4-nurse{
+    display: flex;
+    justify-content: center;
+}
+.apply-nurse{
+    display: block !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
