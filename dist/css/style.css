@@ -289,6 +289,9 @@ p {
     .main-welcome-text {
         width: 95%;
     }
+    .main-text {
+        padding: 1rem 2rem !important;
+    }
   }
   @media only screen and (max-width: 400px) {
     .albania-logo {
@@ -297,6 +300,9 @@ p {
     .main-welcome-text {
         width: 95%;
     }
+    .main-text {
+        padding: 1rem 2rem !important;
+    }
   }
   @media only screen and (max-width: 360px) {
     .albania-logo {
@@ -304,5 +310,8 @@ p {
     }
     .main-welcome-text {
         width: 95%;
+    }
+    .main-text {
+        padding: 1rem 2rem !important;
     }
   }
