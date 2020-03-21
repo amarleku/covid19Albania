@@ -282,3 +282,18 @@ p {
     margin-right: auto !important;
     margin-left: auto !important;
 }
+@media only screen and (max-width: 500px) {
+    .main-welcome-text {
+        width: 95%;
+    }
+  }
+  @media only screen and (max-width: 400px) {
+    .main-welcome-text {
+        width: 95%;
+    }
+  }
+  @media only screen and (max-width: 320px) {
+    .main-welcome-text {
+        width: 95%;
+    }
+  }
