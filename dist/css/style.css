@@ -283,16 +283,25 @@ p {
     margin-left: auto !important;
 }
 @media only screen and (max-width: 500px) {
+    .albania-logo {
+        width: 30%;
+    }
     .main-welcome-text {
         width: 95%;
     }
   }
   @media only screen and (max-width: 400px) {
+    .albania-logo {
+        width: 30%;
+    }
     .main-welcome-text {
         width: 95%;
     }
   }
   @media only screen and (max-width: 360px) {
+    .albania-logo {
+        width: 30%;
+    }
     .main-welcome-text {
         width: 95%;
     }
