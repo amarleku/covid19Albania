@@ -268,7 +268,7 @@ p {
     margin-right: auto;
 }
 .nurse{
-    width: 150px;
+    width: 130px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -276,6 +276,7 @@ p {
 .h4-nurse{
     display: flex;
     justify-content: center;
+    padding-top: 2rem;
 }
 .apply-nurse{
     display: block !important;
