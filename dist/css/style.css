@@ -111,7 +111,7 @@ body {
 }
 
 .box-shadow {
-    box-shadow: 0 1px 16px 0 rgba(0, 0, 0, .1)
+    box-shadow: 0 1px 16px 0 rgba(0, 0, 0, 0.46);
 }
 
 .second-bg {
@@ -245,10 +245,12 @@ p {
     right: 20px;
     opacity: .5
 }
-.deaths{
+
+.deaths {
     color: white !important;
 }
-.recovered{
+
+.recovered {
     color: white !important;
 }
 
