@@ -24,3 +24,13 @@ var request;
     },
 
     request.send();
+
+(request = new XMLHttpRequest).open("GET", "http://coronavirus-19-api.herokuapp.com/countries/kosovo", !0),
+    request.onload = function () {
+        var e = JSON.parse(this.response);
+        document.getElementById("allCasesKosovo").innerHTML = e.cases,
+            document.getElementById("allDeathsKosovo").innerHTML = e.deaths,
+            document.getElementById("allRecoveres").innerHTML = e.recovered
+    },
+
+    request.send();
