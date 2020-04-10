@@ -25,7 +25,7 @@ var request;
 
     request.send();
 
-(request = new XMLHttpRequest).open("GET", "http://covidks.s3.amazonaws.com/data.json", !0),
+(request = new XMLHttpRequest).open("GET", "https://covidks.s3.amazonaws.com/data.json", !0),
     request.onload = function () {
         var e = JSON.parse(this.response);
         document.getElementById("allCasesKosovo").innerHTML = e.cases,
