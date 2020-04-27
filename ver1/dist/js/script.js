@@ -1,4 +1,41 @@
-// World Map
+var request;
+(request = new XMLHttpRequest).open("GET", "https://coronavirus-19-api.herokuapp.com/countries/Albania", !0),
+    request.onload = function () {
+
+        var e = JSON.parse(this.response);
+        document.getElementById("acases").innerHTML = e.cases,
+            document.getElementById("arecovered").innerHTML = e.recovered,
+            document.getElementById("adeaths").innerHTML = e.deaths,
+            document.getElementById("atodayCases").innerHTML = e.todayCases,
+            document.getElementById("acritical").innerHTML = e.critical,
+            document.getElementById("aactive").innerHTML = e.active
+
+    },
+
+    request.send(),
+
+    (request = new XMLHttpRequest).open("GET", "https://coronavirus-19-api.herokuapp.com/all", !0),
+    request.onload = function () {
+
+        var e = JSON.parse(this.response);
+        document.getElementById("allCases").innerHTML = e.cases,
+            document.getElementById("allRecovered").innerHTML = e.recovered,
+            document.getElementById("allDeaths").innerHTML = e.deaths
+    },
+
+    request.send();
+
+(request = new XMLHttpRequest).open("GET", "https://covidks.s3.amazonaws.com/data.json", !0),
+    request.onload = function () {
+        var e = JSON.parse(this.response);
+        document.getElementById("allCasesKosovo").innerHTML = e.cases,
+            document.getElementById("allDeathsKosovo").innerHTML = e.deaths,
+            document.getElementById("allRecoveres").innerHTML = e.recoveries
+    },
+
+    request.send();
+	
+	// World Map
 google.charts.load("current", {
   packages: ["geochart"]
 });
@@ -8,6 +45,7 @@ function drawRegionsMap() {
   fetch("https://api.covid19api.com/summary")
     .then((res) => res.json())
     .then((res) => {
+      // Set number of cases
       setNumbers(res.Global);
       let cases = [];
 
@@ -36,6 +74,7 @@ function drawRegionsMap() {
 google.charts.load("current", { packages: ["corechart"] });
 google.charts.setOnLoadCallback(drawChart);
 
+// var countryName = 'albania'; // Default country name
 
 function drawChart(countryName = "albania") {
   fetch(
@@ -78,15 +117,15 @@ function setNumbers(numbers) {
   document.getElementById("recovered").innerHTML = numbers.TotalRecovered;
 }
 
-const select = document.getElementById("country");
+const select1 = document.getElementById("country");
 window.onload = function () {
   fetch("https://api.covid19api.com/countries")
     .then((res) => res.json())
     .then((data) => {
       data.forEach((d) => {
-        select.innerHTML += `<option value="${d.Slug}">${d.Country}</option>`;
+        select1.innerHTML += `<option value="${d.Slug}">${d.Country}</option>`;
       });
-      select.value = "albania";
+      select1.value = "albania";
     });
 };
 
@@ -94,3 +133,4 @@ select.addEventListener("change", () => {
   document.querySelector(".country-chart").innerHTML = "";
   drawChart(select.value);
 });
+	

@@ -1,209 +1,36 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <!-- hitwebcounter Code START -->
-
-    <!-- Primary Meta Tags -->
-    <title>COVID19 Albania</title>
-    <meta name="title" content="COVID19 Albania">
-    <meta name="description" content="Welcome to COVID19 Albania.
-Here u can see the real results of Corona Virus in Albania">
-
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://covid19al.now.sh/">
-    <meta property="og:title" content="COVID19 Albania">
-    <meta property="og:description" content="Welcome to COVID19 Albania.
-Here u can see the real results of Corona Virus in Albania">
-    <meta property="og:image" content="">
-
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://covid19al.now.sh/">
-    <meta property="twitter:title" content="COVID19 Albania">
-    <meta property="twitter:description" content="Welcome to COVID19 Albania.
-Here u can see the real results of Corona Virus in Albania">
-    <meta property="twitter:image" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="dist/css/style.css" />
-	<link rel="stylesheet" href="./style.css.map">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Covid19 Tracker</title>
+  <link rel="stylesheet" href="./style.css.map">
   <link rel="stylesheet" href="./style.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <link rel="icon" href="logo.ico" type="image/x-icon" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-    </script>
 </head>
-
 <body>
-    <main>
-        <section class="logo">
-            <img class="albania-logo" src="dist/images/logo.png" alt="Logo Albania" />
-        </section>
-        <section class="welcome-message">
-            <div class="container text-center">
-                <h1 class="mt-4">COVID-19 in Albania</h1>
-                <h5 class="mt-4">Here u can see all the statistics of COVID19</h5>
-            </div>
-        </section>
-        <section class="numbers container">
-            <h2 class="last-numbers">Latest Cases</h2>
-            <div class="row">
-                <div class="mb-30 col-sm-12 col-md-6 col-lg-6 col-xl-4">
-                    <div class="statistics-box box-shadow">
-                        <!-- <img src="dist/images/indetify.png" class="death"> -->
-                        <h3 id="acases"></h3>
-                        <span>Identified Cases</span>
-                    </div>
-                </div>
-                <div class="mb-30 col-sm-12 col-md-6 col-lg-6 col-xl-4 ">
-                    <div class="statistics-box box-shadow recovered">
-                        <!-- <img src="dist/images/recover.svg" class="death"> -->
-                        <h3 id="arecovered"></h3>
-                        <span>Recovered</span>
-                    </div>
-                </div>
-                <div class="mb-30 col-sm-12 col-md-6 col-lg-6 col-xl-4">
-                    <div class="statistics-box box-shadow victims">
-                        <!-- <img src="dist/images/death.svg" class="death"> -->
-                        <h3 id="adeaths"></h3>
-                        <span>Victims</span>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="mb-30 col-sm-12 col-md-4 col-lg-4 col-xl-4">
-                    <div class="statistics-box box-shadow">
-                        <!-- <img src="dist/images/indetify.png" class="death2"> -->
-                        <h3 id="atodayCases"></h3>
-                        <span>Today Cases</span>
-                    </div>
-                </div>
-                <div class="mb-30 col-sm-12 col-md-4 col-lg-4 col-xl-4">
-                    <div class="statistics-box box-shadow">
-                        <!-- <img src="dist/images/ctitical.png" class="death2"> -->
-                        <h3 id="acritical"></h3>
-                        <span>Critical</span>
-                    </div>
-                </div>
-                <div class="mb-30 col-sm-12 col-md-4 col-lg-4 col-xl-4">
-                    <div class="statistics-box box-shadow">
-                        <!-- <img src="dist/images/ctitical.png" class="death2"> -->
-                        <h3 id="aactive"></h3>
-                        <span>Active</span>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <hr />
-        <section class="numbers container">
-            <h2 class="last-numbers">Kosovo Cases</h2>
-            <div class="row">
-                <div class="mb-30 col-sm-12 col-md-6 col-lg-6 col-xl-4">
-                    <div class="statistics-box box-shadow">
-                        <!-- <img src="dist/images/indetify.png" class="death"> -->
-                        <h3 id="allCasesKosovo" class="cases"></h3>
-                        <span> Identified Cases</span>
-                    </div>
-                </div>
-                <div class="mb-30 col-sm-12 col-md-6 col-lg-6 col-xl-4 ">
-                    <div class="statistics-box box-shadow recovered">
-                        <!-- <img src="dist/images/recover.svg" class="death"> -->
-                        <h3 id="allRecoveres" class="recovered"></h3>
-                        <span> Recovered</span>
-                    </div>
-                </div>
-                <div class="mb-30 col-sm-12 col-md-6 col-lg-6 col-xl-4">
-                    <div class="statistics-box box-shadow victims ">
-                        <!-- <img src="dist/images/death.svg" class="death"> -->
-                        <h3 id="allDeathsKosovo" class="deaths"></h3>
-                        <span> Victims</span>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <hr />
-        <section class="numbers container">
-            <h2 class="last-numbers">Global Cases</h2>
-            <div class="row">
-                <div class="mb-30 col-sm-12 col-md-6 col-lg-6 col-xl-4">
-                    <div class="statistics-box box-shadow">
-                        <!-- <img src="dist/images/indetify.png" class="death"> -->
-                        <h3 id="allCases"></h3>
-                        <span>Global Identified Cases</span>
-                    </div>
-                </div>
-                <div class="mb-30 col-sm-12 col-md-6 col-lg-6 col-xl-4 ">
-                    <div class="statistics-box box-shadow recovered">
-                        <!-- <img src="dist/images/recover.svg" class="death"> -->
-                        <h3 id="allRecovered"></h3>
-                        <span>Global Recovered</span>
-                    </div>
-                </div>
-                <div class="mb-30 col-sm-12 col-md-6 col-lg-6 col-xl-4">
-                    <div class="statistics-box box-shadow victims ">
-                        <!-- <img src="dist/images/death.svg" class="death"> -->
-                        <h3 id="allDeaths"></h3>
-                        <span>Global Victims</span>
-                    </div>
-                </div>
-            </div>
-			<div class="row">
-				<div class="col-md-12 mt-4">
+  <h2>Coronavirus Dashboard</h2>
+  <div class="cards">
+    <div class="card">
+      <h3 id="cases">--</h3>
+      <p>Total Cases</p>
+    </div>
+    <div class="card">
+      <h3 id="deaths">--</h3>
+      <p>Total Deaths</p>
+    </div>
+    <div class="card">
+      <h3 id="recovered">--</h3>
+      <p>Total Recovered</p>
+    </div>
+  </div>
+  <h3 class="heading">World Data</h3>
   <div class="world-map"></div>
-  <h3 class="last-numbers">Country Specific</h3>
+  <h3 class="heading">Country Specific</h3>
   <div class="select">
     <select id="country"></select>
   </div>
   <div class="country-chart"></div>
   <script src="https://www.gstatic.com/charts/loader.js"></script>
   <script src="./app.js"></script>
-				</div>
-			</div>
-        </section>
-        <hr />
-        <section class="info">
-            <div class="container">
-                <div class="row">
-                    <div class="mb-30 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                        <div class="more-info-section box-shadow nurse-content">
-                            <a href="http://infermierepershqiperine.al/" class="">
-                                <img src="dist/images/nurse.png" alt="" class="nurse">
-                                <h4 class="h4-nurse">Apply for Volunteer</h4>
-                                <!-- <p> CALL FOR VOLUNTEER </p> -->
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="tel">
-            <div class="container-fluid">
-                <div class="row justify-content-center align-items-center">
-                    <div class="footer-inner">
-                        <h2>Telephone: 127</h2>
-                        <p>For every suspected case and emergency call this number</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-
 </body>
-<script type="text/javascript" src="dist/js/script.js"></script>
-<!-- hitwebcounter Code START -->
-<a href="https://www.hitwebcounter.com" target="_blank">
-    <img src="https://hitwebcounter.com/counter/counter.php?page=7211232&style=0007&nbdigits=1&type=ip&initCount=0"
-        title="User Stats" alt="webcounterwebsite" border="0" />
-</a>
-
 </html>
