@@ -4,11 +4,11 @@ var request;
 
         var e = JSON.parse(this.response);
         document.getElementById("cases").innerHTML = e.cases,
-            document.getElementById("recovered").innerHTML = e.recovered,
-            document.getElementById("deaths").innerHTML = e.deaths,
-            document.getElementById("todayCases").innerHTML = e.todayCases,
-            document.getElementById("critical").innerHTML = e.critical,
-            document.getElementById("active").innerHTML = e.active
+            document.getElementById("arecovered").innerHTML = e.recovered,
+            document.getElementById("adeaths").innerHTML = e.deaths,
+            document.getElementById("atodayCases").innerHTML = e.todayCases,
+            document.getElementById("acritical").innerHTML = e.critical,
+            document.getElementById("aactive").innerHTML = e.active
 
     },
 
