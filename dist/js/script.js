@@ -3,7 +3,7 @@ var request;
     request.onload = function () {
 
         var e = JSON.parse(this.response);
-        document.getElementById("cases").innerHTML = e.cases,
+        document.getElementById("acases").innerHTML = e.cases,
             document.getElementById("arecovered").innerHTML = e.recovered,
             document.getElementById("adeaths").innerHTML = e.deaths,
             document.getElementById("atodayCases").innerHTML = e.todayCases,
