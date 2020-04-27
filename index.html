@@ -26,6 +26,8 @@ Here u can see the real results of Corona Virus in Albania">
     <meta property="twitter:image" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="dist/css/style.css" />
+	<link rel="stylesheet" href="./style.css.map">
+  <link rel="stylesheet" href="./style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <link rel="icon" href="logo.ico" type="image/x-icon" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -155,6 +157,18 @@ Here u can see the real results of Corona Virus in Albania">
                     </div>
                 </div>
             </div>
+			<div class="row">
+				<div class="col-md-12 mt-4">
+  <div class="world-map"></div>
+  <h3 class="heading">Country Specific</h3>
+  <div class="select">
+    <select id="country"></select>
+  </div>
+  <div class="country-chart"></div>
+  <script src="https://www.gstatic.com/charts/loader.js"></script>
+  <script src="./app.js"></script>
+				</div>
+			</div>
         </section>
         <hr />
         <section class="info">
